@@ -1,15 +1,15 @@
-Output demo/gifs/create.gif
+Output gifs/use.gif
 
 Require echo
 
 Set Shell zsh
 Set FontSize 20
-Set Width 1600
-Set Height 500
+Set Width 1200
+Set Height 1700
 Set LoopOffset 0%
 Set PlaybackSpeed 1
 
-Sleep 500ms
+Sleep 1s
 Type@50ms "ds create --tag " Tab Sleep 500ms
 Type@50ms "dev" Tab
 Type@50ms " 'title of your new task'"
