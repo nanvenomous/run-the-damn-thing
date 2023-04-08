@@ -10,16 +10,20 @@ Set LoopOffset 0%
 Set PlaybackSpeed 1
 
 Sleep 1s
-Type@50ms "ds create --tag " Tab Sleep 500ms
-Type@50ms "dev" Tab
-Type@50ms " 'title of your new task'"
-Sleep 1s
-Enter
-Type@50ms "i## Here is where you write how to accomplish your task in Markdown" Enter
-Sleep 2s
+
+Type@100ms "ds init --create-developer --create-team" Enter Sleep 10s
+Type@100ms "theliteraldev" Enter Sleep 5s
+Type@100ms "theliteraldev@gmail.com" Enter Sleep 5s
+Type@100ms "run-the-damn-thing" Sleep 5s Enter Enter
+Type@100ms "superawesomepassword" Enter Sleep 3s
+Type@100ms "superawesomepassword" Enter Sleep 10s
+
+Type@100ms "ds info" Enter Sleep 10s
+
+Type@100ms "ds create --tag dev 'title of your new task'" Sleep 10s Enter
+Type@100ms "i## Remember to wake up tomorrow" Enter Sleep 5s
 
 Escape
-Type@100ms ":wq"
-Enter
+Type@100ms ":wq" Enter Sleep 5s
 
-Sleep 3s
+Type@100ms "ds list" Enter Sleep 10s
