@@ -1,5 +1,10 @@
-- [github](https://github.com/devsquadron/)
-- [documentation](https://developersquadron.com/)
+### Run the damn thing, devsquadron
+this repository complements a youtube video which explains installation and usage of devsquadron command line project management tool
+
+- [youtube video](https://www.youtube.com/watch?v=k_vNJKwFrZM) of devsquadron tutorial
+
+- [devsquadron github](https://github.com/devsquadron/)
+- [devsquadron documentation](https://developersquadron.com/)
 
 - quickly copy the instruction to install from source on macos and linux
 ```
